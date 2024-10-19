@@ -1,0 +1,41 @@
+.cards_box {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  width: 300px;
+  height: 600px;
+  position: relative;
+  background-color: grey;
+}
+
+.card .card_header img {
+  width: 100%;
+}
+
+.card_header {
+  position: relative;
+}
+
+.product_icons {
+  display: flex;
+  row-gap: 10px;
+  flex-direction: column;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.product_icons .icon {
+  background-color: white;
+  padding: 5px 6px;
+  border-radius: 50%;
+}
+
+.card_footer {
+  position: absolute;
+  bottom: 20px;
+}
